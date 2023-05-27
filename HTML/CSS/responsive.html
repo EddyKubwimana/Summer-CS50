@@ -5,28 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive web pages</title>
+
+
     <style>
+
+    body{
+        margin:0;
+    }
+
+
+      
       #container{
 
         display :flex;
         flex-wrap: wrap;
+        overflow:hidden;
+        align-self: start;
+       
 
     
 
       }
       #container>div{
-        background-color: blue;
+        background-color:#0099ff;
         margin : 20px;
         font : 20px;
         padding: 20px;
-        max-width: 20%;
-        min-width: 20%;
+        max-width: 25%;
+        border-radius: 10px;
+        
+       
 
       }
+      
+      nav{
+        background-color:#0099ff;
+        height : 100px;
+        padding-top: 40px;
+
         
+
+      }
+      nav>a{
+       text-emphasis:blue;
+       color: white;
+       text-align: center;
+       padding: 14px;
+       text-decoration: none;
+
+       text-align: center;
+    
+        
+      }
+      
+      nav a:hover{
+
+        background-color: rgb(142, 142, 160);
+        
+
+      }
+
+
+      .header-overlay{
+        height: 300px;
+      }
+
+    
+
     </style>
 </head>
 <body>
+    <div class = "header-overlay">
+        <nav>
+            <a href = "#"> Home</a>
+            <a href = "#"> About</a>
+            <a href = "#"> Blog</a>
+            <a href = "#"> Portfolio</a>
+            <a href = "#"> Login</a>
+    
+            <svg class = "waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#0099ff" fill-opacity="1" d="M0,256L80,218.7C160,181,320,107,480,117.3C640,128,800,224,960,261.3C1120,299,1280,277,1360,266.7L1440,256L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
+              </svg>
+    
+        </nav>
+
+    </div>
+    
+
+
+
+
     <div id = "container">
 
         <div>
@@ -50,6 +118,7 @@
         </div>
     
     </div>
+
     
 </body>
 </html>
