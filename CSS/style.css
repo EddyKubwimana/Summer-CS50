@@ -33,28 +33,43 @@
 
   }
   
-  nav{
+  .head{
     background-color:#0099ff;
     height : 100px;
     padding-top: 40px;
 
+
     
 
   }
-  nav>a{
-   text-emphasis:blue;
+
+
+  .head .navbar{
+    width: 100%;
+    display: flex;
+    padding :0 80px;
+    margin : 0 auto;
+    justify-content: space-between;
+
+
+  }
+  .navbar>ul>li>a{
    color: white;
    text-align: center;
-   padding: 14px;
    text-decoration: none;
-   border: 1px solid #0f1010;
 
-   text-align: center;
 
     
   }
+
+  ul>li{
+    display : inline-block;
+    padding : 20px;
+
+  }
+
   
-  nav a:hover{
+  .navbar a:hover{
 
     background-color: rgb(142, 142, 160);
     
@@ -86,3 +101,18 @@
     position:absolute;
     padding : 20px;
   }
+
+ .social-media{
+  width: 100%;
+
+
+ }
+
+ .social-media a, .footblock a{
+  text-decoration: none;
+  text-align: center;
+ }
+
+ .social-media li{
+  text-decoration: none;
+ }
