@@ -10,28 +10,6 @@
 
 
   
-  #container{
-
-    display :flex;
-    flex-wrap: wrap;
-    overflow:hidden;
-    align-self: start;
-   
-
-
-
-  }
-  #container>div{
-    background-color:#0099ff;
-    margin : 20px;
-    font : 20px;
-    padding: 20px;
-    max-width: 25%;
-    border-radius: 10px;
-    
-   
-
-  }
   
   .head{
     background-color:#0099ff;
@@ -135,7 +113,6 @@
   justify-content: space-between;
 }
 
-
 .newsletter>form input{
   margin-top: 40px;
   height: 40px;
@@ -148,4 +125,29 @@
   height: 40px;
   width: 50px;
   border-radius: 10px;
+}
+
+
+
+/*showcase content styling */
+
+.showcase >.showcase-content{
+  margin-left: 10%;
+  max-width: 850px;
+  margin-top: 5%;
+ 
+
+}
+
+.showcase .showcase-content span{
+  font-weight: 500;
+}
+
+
+.showcase .showcase-content p{
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: justify;
+  
+
 }
