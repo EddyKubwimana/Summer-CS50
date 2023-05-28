@@ -221,10 +221,33 @@
 
 /*services */
 
-.wrapper>.items{
+#services .wrapper>.items{
   display : flex;
-  padding: 50px;
-  text-align: Center justify;
+  padding: 2px;
   
 
+}
+
+#services .items>.item{
+  padding: 5px;
+  margin : 10px;
+  border-style: ridge;
+  border-radius: 5px;
+  box-shadow:  5px 5px 20px rgba(0,0,0,0.3), -5px -5px 20px rgb(0, 0, 0.3);
+}
+
+#services .items .item h3{
+  color :#0099ff;
+  font-size: 16px;
+  margin : 5px;
+
+}
+
+
+#services .items .item p{
+  line-height : 1.4;
+}
+
+#services .items .item i{
+  color : #0099ff
 }
