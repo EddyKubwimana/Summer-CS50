@@ -201,13 +201,6 @@
   padding : 0 50px;
   margin : 0 auto;
   flex-wrap: wrap;
-
-
-
-
-
-
-
 }
 
 
@@ -234,6 +227,7 @@
   border-style: ridge;
   border-radius: 5px;
   box-shadow:  5px 5px 20px rgba(0,0,0,0.3), -5px -5px 20px rgb(0, 0, 0.3);
+  transition: all 0.8s ease ;
 }
 
 #services .items .item h3{
@@ -250,4 +244,18 @@
 
 #services .items .item i{
   color : #0099ff
+}
+
+#services .items .item:hover i{
+  color :blue;
+}
+
+
+#services .items .item:hover{
+  background: #0099ff;
+  transform: scale(1.05);
+}
+
+#services .items .item:hover h3{
+  color :blue;
 }
