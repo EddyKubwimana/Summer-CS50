@@ -259,3 +259,31 @@
 #services .items .item:hover h3{
   color :blue;
 }
+
+
+/* Services section Botom */
+
+
+#goal{
+
+  display :flex;
+  padding-top: 20px;
+  margin : 0 auto;
+
+}
+
+.goal .img{
+  display:inline-block;
+  position:relative;
+  width: 600px;
+  height: 380px;
+  overflow: hidden;
+
+}
+
+.goal> .img >img{
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+
+}
