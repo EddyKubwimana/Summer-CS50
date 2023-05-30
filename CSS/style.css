@@ -306,4 +306,26 @@
 #goal .goal-text a:hover{
   color :blue;
   background: #0099ff;
+  transition:0.5s;
+}
+
+
+#goal .goal-text h2{
+  margin: 20px 0;
+  color :#0099ff;
+}
+.goal-text .contents{
+  display: flex;
+}
+
+
+.goal-text .content h3{
+  font-size: 16px;
+  padding-bottom : 3px;
+  color :#0099ff;
+
+}
+
+.goal-text .contents.content p{
+  color: #1A1B1E;
 }
