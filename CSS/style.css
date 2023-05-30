@@ -284,6 +284,19 @@
 .goal> .img >img{
   width: auto;
   height: 100%;
+  padding-top: 20%;
+  padding-left: 20%;
   object-fit: cover;
+}
+
+.goal .goal-text{
+  margin : 0 40px;
+
+}
+
+#goal .goal-text a{
+  color:#f4f4f4;
+  background: #55BA53;
+  text-decoration: none;
 
 }
