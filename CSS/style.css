@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+@import '../node_modules/owl.carousel/dist/assets/owl.carousel.min.css';
+@import "../node_modules/jquery/dist/jquery.js";
+@import '/node_modules/owl.carousel';
 
 
 *{
@@ -365,15 +368,16 @@
   margin-bottom: 100px;
 }
 
-.owl-coursel .item img{
+.owl-carousel .item img{
   display: block;
   width: 700px;
-  height: 100px;
+  height: 600px;
   border: 2px solid #0099ff;
   object-fit : cover;
 
-
 }
+
+
 
 
 
