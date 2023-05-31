@@ -377,6 +377,35 @@
 
 }
 
+.owl-dots{
+  text-align: center;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.owl-dot{
+  height : 20px;
+  width :20px;
+  margin : 0 5px;
+  margin-bottom: 10px;
+  outline: none !important;
+  border-radius: 50%;
+  border: 2px solid blue !important;
+  
+}
+
+.owl-dot .active{
+  width: 35px;
+  border-radius : 20px;
+}
+
+.owl_dot .active, .owl-dot:hover{
+  background: blue !important;
+
+
+
+}
+
 
 
 
