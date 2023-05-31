@@ -329,3 +329,13 @@
 .goal-text .contents.content p{
   color: #1A1B1E;
 }
+
+
+.goal-text .contents >i{
+  color :white;
+  margin-right: 20px;
+  padding: 3px;
+  background:#0099ff;
+  border-radius: 5px;
+  align-self: flex-start;
+}
