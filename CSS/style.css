@@ -380,7 +380,6 @@
 .owl-dots{
   text-align: center;
   margin-top: 20px;
-  background-color: white;
 }
 
 .owl-dot{
@@ -391,6 +390,7 @@
   outline: none !important;
   border-radius: 50%;
   border: 2px solid blue !important;
+  background: white
   
 }
 
@@ -411,40 +411,56 @@
   margin-bottom: 20px;
 }
 
-.card-items{
-  
-
-  
-
-  
-}
 .card{
   display :flex;
   margin-top:10px;
   overflow: hidden;
   justify-content:center;
+ 
 
 }
 
 .card-body ul{
-  margin-left: -20px;
+  margin-left: 80px;
   color: red;
 }
+.card-body h3, .card-body h4{
+  margin-left : 80px;
+  color:#0099ff
 
+}
 .card-header{
-  display: inline-block;
-  width: 300px;
-  height: 300px;
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
   overflow: hidden;
- 
+  background-color: #f6f6f6;
+  z-index: 1;
+  box-shadow:  5px 5px 20px rgba(0,0,0,0.3), -5px -5px 20px rgb(0, 0, 0.3);
+
 }
 
+.card-header:hover{
+  transform: scale(1.05);
+  background-color:#0099ff
+
+}
+
+.card-header:hover h3, .card-header:hover h4{
+
+  color:blue;
+}
 .card-header> img{
-  width:50%;
+  margin-left: 10%;
+  width:70%;
   height : auto;
   border-radius : 50%;
   padding: 20px;
 }
+
 
 
 
