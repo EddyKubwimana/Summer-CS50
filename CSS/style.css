@@ -402,9 +402,36 @@
 .owl_dot .active, .owl-dot:hover{
   background: blue !important;
 
+}
 
+.teams h2{
+  font-size: 40px;
+  font-weight: 600;
+  color:#0099ff;
+  margin-bottom: 20px;
+}
+
+#teams .wrapper .card-items{
+  display :flex;
+  margin-top: auto;
+  justify-content: space-evenly;
+  overflow: hidden;
 
 }
+
+#teams .wrapper .card-items .card .card-header{
+  display: inline-block;
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius : 50%;
+}
+
+#teams .wrapper .card-items .card .card-header img{
+  width: 100%;
+  height : auto;
+}
+
 
 
 
