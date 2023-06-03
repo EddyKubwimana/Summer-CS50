@@ -440,13 +440,16 @@
   overflow: hidden;
   background-color: #f6f6f6;
   z-index: 1;
+  transition: all 0.5s ease;
   box-shadow:  5px 5px 20px rgba(0,0,0,0.3), -5px -5px 20px rgb(0, 0, 0.3);
+  
 
 }
 
 .card-header:hover{
   transform: scale(1.05);
   background-color:#0099ff
+  
 
 }
 
@@ -516,7 +519,7 @@
 
 #blog .blogwrapper .blog{
   display :flex;
-  width: 90%;
+  min-width: 90%;
   justify-content: space-evenly;
 
 }
@@ -527,6 +530,7 @@
   background-color: #0099ff;
   border-radius: 5px;
   box-shadow:  5px 5px 20px rgba(0,0,0,0.3), -5px -5px 20px rgb(0, 0, 0.3);
+  transition : all 0.5s ease;
 
 }
 
@@ -546,6 +550,17 @@
 
 #blog .blogwrapper .blog .blog-card .blog-card-body{
   margin-left: 30px
+}
+
+.copyright{
+  min-width: 100;
+  margin-left: 40%;
+  color :white
+}
+
+ hr{
+  height : 3px;
+  background-color: blue;
 }
 
 
