@@ -514,5 +514,29 @@
 }
 
 
+#blog .blogwrapper .blog{
+  display :flex;
+  flex-wrap: wrap;
+  width: 20%;
+  flex-direction: column-reverse;
+
+}
+
+#blog .blogwrapper .blog .blog-card{
+  margin : 70px 5px;
+  background-color: #0099ff;
+  border-radius: 5px;
+  box-shadow:  5px 5px 20px rgba(0,0,0,0.3), -5px -5px 20px rgb(0, 0, 0.3);
+
+}
+
+#blog .blogwrapper .blog .blog-card .blog-card-header img{
+  width: 20%;
+  height:20%;
+  object-fit: cover;
+  display : block;
+  margin-bottom : 10px;
+}
+
 
 
