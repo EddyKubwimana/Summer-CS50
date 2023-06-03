@@ -516,26 +516,36 @@
 
 #blog .blogwrapper .blog{
   display :flex;
-  flex-wrap: wrap;
-  width: 20%;
-  flex-direction: column-reverse;
+  width: 90%;
+  justify-content: space-evenly;
 
 }
 
 #blog .blogwrapper .blog .blog-card{
-  margin : 70px 5px;
+  margin-bottom: 10px;
+  margin-left : 20px;
   background-color: #0099ff;
   border-radius: 5px;
   box-shadow:  5px 5px 20px rgba(0,0,0,0.3), -5px -5px 20px rgb(0, 0, 0.3);
 
 }
 
+#blog .blogwrapper .blog .blog-card:hover {
+  transform: scale(1.05);
+
+}
+
+
+
 #blog .blogwrapper .blog .blog-card .blog-card-header img{
-  width: 20%;
-  height:20%;
+  width: 100%;
   object-fit: cover;
   display : block;
   margin-bottom : 10px;
+}
+
+#blog .blogwrapper .blog .blog-card .blog-card-body{
+  margin-left: 30px
 }
 
 
