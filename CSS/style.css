@@ -38,8 +38,6 @@
    color: white;
    text-align: center;
    text-decoration: none;
-
-
     
   }
 
@@ -104,6 +102,10 @@
   display:block;
   padding: 10px;
   color :white;
+}
+
+.footblock h2, .footblock p {
+  color:white;
 }
 
 
