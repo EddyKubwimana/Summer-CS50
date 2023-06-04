@@ -29,7 +29,7 @@
     width: 100%;
     display: flex;
     padding :0 80px;
-    margin-top: -2%;
+    margin-top: -5%;
     justify-content: space-between;
 
 
@@ -63,8 +63,9 @@
    
   }
   .head .logo img{
-    max-width: 30%;
-    max-height: 30%;
+    margin-left: 10px;
+    max-width: 100%;
+    max-height: 100%;
   }
 
 
