@@ -82,65 +82,7 @@
     
   }
 
-  footer{
-    width: 100%;
-    height : auto;
-    background-color: #0099ff;
-    position:absolute;
-    padding : 20px;
-  }
-
- .social-media{
-  width: 70%;
-  margin-left: 25%;
-
- }
-
- .social-media a, .footblock a{
-  text-decoration: none;
-  text-align: center;
-  color :white;
- }
-
- .social-media li {
-  text-decoration: none;
- }
-
-.footblock li{
-  display:block;
-  padding: 10px;
-  color :white;
-}
-
-.footblock h2, .footblock p {
-  color:white;
-}
-
-
-.footblock{
-  margin-left: 5%;
-  margin-right:10%;
-  display:flex;
-  overflow:hidden;
-  align-self: start;
-  justify-content: space-between;
-}
-
-.newsletter>form input{
-  margin-top: 40px;
-  height: 40px;
-  width: 500px;
-  border-radius: 10px;
-}
-
-.newsletter>form button{
-  margin-top :40px;
-  height: 40px;
-  width: 50px;
-  border-radius: 10px;
-}
-
-
+  
 
 /*showcase content styling */
 
@@ -562,14 +504,87 @@
   margin-left: 30px
 }
 
-.copyright{
+
+/*footer design*/
+
+.endblock{
+  width: 100%;
+  height : auto;
+  background-color: #0099ff;
+  position:absolute;
+}
+
+.endblock.social-media{
+width: 70%;
+margin-left: 25%;
+
+
+}
+
+.endblock .social-media ul li a {
+text-decoration: none;
+text-align: center;
+color :white;
+}
+
+.endblock .social-media ul li {
+text-decoration: none;
+margin-left:80px;
+padding-left: 150px;
+}
+
+
+.endblock .footblock .newsletter h2, .endblock .footblock .newsletter p {
+color:white;
+}
+
+.endblock .footblock .newsletter img{
+  width: 10%;
+  height: 10%;
+}
+
+.endblock .footblock .contact .foot-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.endblock .footblock .contact .foot-left li , .endblock .footblock .contact .foot-left li a ,.endblock .footblock .contact .foot-left li a i {
+  text-decoration: none;
+  color: white;
+}
+
+
+.endblock.footblock{
+margin-left: 5%;
+margin-right:10%;
+display:flex;
+overflow:hidden;
+align-self: start;
+justify-content: space-between;
+}
+
+.newsletter>form input{
+margin-top: 40px;
+height: 40px;
+width: 500px;
+border-radius: 10px;
+}
+
+.newsletter>form button{
+margin-top :40px;
+height: 40px;
+width: 50px;
+border-radius: 10px;
+}
+
+.endblock .copyright{
   min-width: 100;
   margin-left: 40%;
   color :white;
   font-size: 20px;
 }
 
- hr{
+ .endblock hr{
   height : 3px;
   background-color: blue;
 }
