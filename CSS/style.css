@@ -39,6 +39,7 @@
    color: white;
    text-align: center;
    text-decoration: none;
+   border-radius: 10px;
     
   }
 
@@ -50,8 +51,10 @@
 
   
   .navbar a:hover{
-
-    background-color: rgb(142, 142, 160);
+ 
+    background-color: blue;
+    padding: 0 10px;
+    transition: all 0.5s ease;
     
 
   }
