@@ -10,7 +10,6 @@
     margin-left: 0;
     margin-right: 0;
     padding : 0;
-    overflow-x: hidden;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
@@ -364,26 +363,21 @@
   margin-bottom: 20px;
 }
 
-.card{
+
+#teams .wrapper{
   display :flex;
-  margin-top:10px;
-  overflow: hidden;
-  justify-content:center;
+  flex-flow: row;
+
  
 
 }
 
-.card-body ul{
-  margin-left: 80px;
-  color: red;
-}
-.card-body h3, .card-body h4{
+#teams .wrapper .card .card-body h3, #teams .wrapper .card .card-body h4{
   margin-left : 80px;
   color:#0099ff
 
 }
-
-.card-header{
+#teams .wrapper .card{
   margin: 20px;
   border-radius: 10px;
   display: flex;
@@ -399,18 +393,22 @@
 
 }
 
-.card-header:hover{
+#teams .wrapper .card:hover{
   transform: scale(1.05);
   background-color:#0099ff
   
 
 }
 
-.card-header:hover h3, .card-header:hover h4{
+#teams .wrapper .card:hover h3, .card:hover h4{
 
   color:blue;
 }
-.card-header> img{
+
+#teams .wrapper .card ul{
+  margin-left: 80px;
+}
+#teams .wrapper .card .card-header> img{
   margin-left: 10%;
   width:70%;
   height : auto;
@@ -613,7 +611,6 @@ border-radius: 10px;
   min-width: 100;
   margin-left: 40%;
   color :white;
-  font-size: 20px;
 }
 
  .endblock hr{
