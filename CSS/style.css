@@ -552,6 +552,21 @@ color:white;
   text-decoration: none;
   color: white;
 }
+.endblock .footblock .partners .foot-center{
+  display: flex;
+  flex-direction: column;
+}
+
+.endblock .footblock .partners .foot-center li, .endblock .footblock .partners .foot-center li a , .endblock .footblock .partners .foot-center li a i{
+  text-decoration: none;
+  color :white
+}
+
+.endblock .footblock .address .foot-right li, .endblock .footblock .address .foot-right li a {
+  color :white;
+  text-decoration: none;
+
+}
 
 
 .endblock.footblock{
