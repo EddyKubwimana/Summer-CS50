@@ -39,13 +39,15 @@
    color: white;
    text-align: center;
    text-decoration: none;
+   padding : 10px;
    border-radius: 10px;
+   
     
   }
 
   ul>li{
     display : inline-block;
-    padding : 20px;
+   
 
   }
 
@@ -53,8 +55,9 @@
   .navbar a:hover{
  
     background-color: blue;
-    padding: 0 10px;
     transition: all 0.5s ease;
+    padding : 0 5px;
+    transform: scale(1.05);
     
 
   }
@@ -105,13 +108,16 @@
  }
 
  .social-media li {
+  margin-top: 20px;
   text-decoration: none;
+  padding-inline-start: 100px;
  }
 
-.footblock li{
+.footblock ul li{
   display:block;
   padding: 10px;
   color :white;
+  
 }
 
 .footblock h2, .footblock p {
@@ -140,6 +146,10 @@
   height: 40px;
   width: 50px;
   border-radius: 10px;
+}
+.newsletter img{
+  width: 200px;
+  height: 200px;
 }
 
 
