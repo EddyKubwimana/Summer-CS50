@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Styling for the navigation bar */
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+        
+        /* Styling for the navigation links */
+        .navbar a {
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        
+        /* Styling for the hamburger menu */
+        .navbar .icon {
+            display: none;
+        }
+        
+        /* Media query for responsive design */
+        @media screen and (max-width: 600px) {
+            .navbar a:not(:first-child) {display: none;}
+            .navbar a.icon {
+                float: right;
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <script>
+        /* Function to toggle the navigation links on small screens */
+        function myFunction() {
+            var x = document.getElementsByClassName("navbar")[0];
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        }
+    </script>
+</body>
+</html>
