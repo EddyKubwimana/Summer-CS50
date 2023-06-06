@@ -25,7 +25,6 @@
   .head .navbar{
     width: 100%;
     display: flex;
-    padding :0 80px;
     margin-left: 3%;
     justify-content: space-between;
 
@@ -35,12 +34,14 @@
    color: white;
    text-align: center;
    text-decoration: none;
+
     
   }
 
   ul>li{
     display : inline-block;
-    padding : 20px;
+    margin-top:0px;
+    padding-left: 40px;
 
   }
 
@@ -55,16 +56,10 @@
 
   .header-overlay{
     height: 300px;
-    margin-bottom: 100px;
     
    
   }
-  .head .logo img{
-    margin-right: 10px;
-    margin-left: 1%;
-    max-width: 180%;
-    max-height: 180%;
-  }
+ 
 
 
   .showcase{
@@ -318,8 +313,16 @@
 }
 
 
+/* carousel  */
 
-.teams h2{
+.carousel-inner .carousel-item img{
+  height: 1000px;
+  width: 200px;
+}
+
+
+
+#teams h2{
   font-size: 40px;
   font-weight: 600;
   color:#0099ff;
