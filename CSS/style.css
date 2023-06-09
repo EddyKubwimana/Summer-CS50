@@ -340,7 +340,8 @@
 
 #teams .wrapper .card .card-body h3, #teams .wrapper .card .card-body h4{
   margin-left : 80px;
-  color:#0099ff
+  color:#0099ff;
+  font-size: medium;
 
 }
 #teams .wrapper .card{
@@ -369,10 +370,10 @@
 #teams .wrapper .card:hover h3, .card:hover h4{
 
   color:blue;
+
 }
 
 #teams .wrapper .card ul{
-  margin-left: 80px;
 }
 #teams .wrapper .card .card-header> img{
   margin-left: 10%;
