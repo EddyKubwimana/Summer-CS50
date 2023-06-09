@@ -533,6 +533,12 @@ color:white;
   padding-bottom: 20px;
 }
 
+.endblock .footblock .partners .foot-center li{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
 .endblock .footblock .contact .foot-left li , .endblock .footblock .contact .foot-left li a ,.endblock .footblock .contact .foot-left li a i {
   text-decoration: none;
   color: white;
