@@ -523,6 +523,16 @@ color:white;
   flex-direction: column;
 }
 
+.endblock .footblock .contact .foot-left li{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.endblock .footblock .address .foot-right li{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .endblock .footblock .contact .foot-left li , .endblock .footblock .contact .foot-left li a ,.endblock .footblock .contact .foot-left li a i {
   text-decoration: none;
   color: white;
