@@ -3,5 +3,18 @@ $color:blue;
 body {
    color:$color
 
+}
 
+
+div{
+    p{
+        font-size: medium;
+        color :$color;
+
+    }
+
+    ul{
+        font-size: larger;
+        background: $color;
+    }
 }
