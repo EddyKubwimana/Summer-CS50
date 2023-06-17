@@ -1,0 +1,14 @@
+body {
+  color: blue;
+}
+
+div p {
+  font-size: medium;
+  color: blue;
+}
+div ul {
+  font-size: larger;
+  background: blue;
+}
+
+/*# sourceMappingURL=newstyle.css.map */
